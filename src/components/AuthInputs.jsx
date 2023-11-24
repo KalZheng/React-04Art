@@ -19,6 +19,9 @@ const Label = styled.label`
   color: #6b7280;
 `;
 
+// style components pass the props to the underline 
+// html tag in this case <input> 
+// so you can condition the className
 const Input = styled.input`
   width: 100%;
   padding: 0.75rem 1rem;
